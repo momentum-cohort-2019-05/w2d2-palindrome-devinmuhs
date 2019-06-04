@@ -8,7 +8,7 @@ reverse = no_chars[::-1]
 
 if no_chars == reverse:
     print(phrase_input + " is a palindrome! 😃  Good for you!")
-elif no_chars != reverse:
+else:
     print(phrase_input + " is not a palindrome! 😔  Try again!")
     
     ## code did not work with non alphanumeric characters##
